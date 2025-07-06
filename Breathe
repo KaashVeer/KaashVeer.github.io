@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+	<style>
+  .grid {
+  	grid-template-rows: ;
+    grid-template-columns: 1fr 2fr 100px;
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+    .grid div {
+      background-color: #ccc;
+      border: 1px solid #000;
+      margin: 2px;
+    }
+  </style>
+
+</head>
+
+<body>
+	<div class="grid">
+  	<div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>
